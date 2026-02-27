@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magic Storybook</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            background: linear-gradient(120deg, #FFD7E3, #A8C0FF);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            text-align: center;
+            animation: fadeIn 2s;
+        }
+
+        h1 {
+            font-size: 3rem;
+            color: #ff4081;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px #fff;
+        }
+
+        p {
+            font-size: 1.2rem;
+            max-width: 600px;
+            margin-bottom: 20px;
+        }
+
+        .owner {
+            font-weight: bold;
+            color: #3f51b5;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            padding: 15px 30px;
+            background-color: #ffca28;
+            color: #fff;
+            font-size: 1.2rem;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: transform 0.3s, background-color 0.3s;
+            text-decoration: none;
+        }
+
+        .btn:hover {
+            transform: scale(1.1);
+            background-color: #ff9800;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to the Magic Storybook!</h1>
+    <div class="owner">Created by: Khushi Kanwar</div>
+    <p>Step into a world of enchanting stories, magical creatures, and adventures beyond imagination. Each story will take you to a new magical realm where fun and wonder await!</p>
+    <a href="story1.html" class="btn">Start Reading</a>
+</body>
+</html>
