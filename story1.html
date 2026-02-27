@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Enchanted Forest</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            background: linear-gradient(to bottom, #A8FF78, #78FFD6);
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            animation: fadeIn 2s;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: #6a1b9a;
+            margin: 20px 0;
+            text-shadow: 2px 2px #fff;
+        }
+
+        .story {
+            max-width: 700px;
+            margin: 0 auto;
+            font-size: 1.2rem;
+            padding: 10px;
+        }
+
+        img {
+            width: 80%;
+            max-width: 400px;
+            margin: 20px 0;
+            border-radius: 15px;
+            transition: transform 0.5s;
+        }
+
+        img:hover {
+            transform: scale(1.1) rotate(3deg);
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 25px;
+            background-color: #ff4081;
+            color: #fff;
+            border-radius: 10px;
+            font-size: 1.1rem;
+            text-decoration: none;
+            margin: 20px 0;
+            transition: transform 0.3s, background-color 0.3s;
+        }
+
+        .btn:hover {
+            transform: scale(1.1);
+            background-color: #e91e63;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <h1>The Enchanted Forest</h1>
+    <img src="https://i.ibb.co/9Hzf3dS/forest.png" alt="Magical Forest">
+    <div class="story">
+        Once upon a time, in a forest glowing with sparkling lights and whispering trees, a young fairy named Lila discovered a hidden path that shimmered like gold. As she walked, the flowers danced to her tune, and the birds sang songs she had never heard before. Suddenly, a gentle unicorn appeared, guiding her to a magical waterfall that granted one wish to those pure of heart. Lila closed her eyes, wished for happiness for all forest creatures, and the forest erupted in colors, brighter than ever before.
+    </div>
+    <a href="story2.html" class="btn">Next Page</a>
+</body>
+</html>
